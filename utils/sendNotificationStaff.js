@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
 
 // Initialize the Firebase Admin SDK
-const serviceAccount = require('./laani-saudi-ad975-firebase-adminsdk-fbsvc-324b2e032e.json');
+// const serviceAccount = require('./laani-saudi-ad975-firebase-adminsdk-fbsvc-324b2e032e.json');
 admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 
 const sendNotification = async (
